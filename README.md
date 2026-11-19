@@ -58,7 +58,16 @@ flowchart LR
 
 ---
 
-## 3. Project Structure
+## 3. Schematic & Hardware Previews
+
+### Circuit Schematic
+![Circuit Schematic (Page 1)](docs/images/schematic_p1.png)
+
+📄 [Open original high-resolution schematic drawing (PDF)](Freq-counter.pdf)
+
+---
+
+## 4. Project Structure
 
 ```text
 .
@@ -67,6 +76,9 @@ flowchart LR
 ├── Freq-counter.pdf             # Exported schematic reference drawing
 ├── eagle.epf                    # Eagle project configuration
 ├── Freq-counter_2025-07-29.zip  # Production package (CAM Gerber & Drill files, PnP assembly)
+├── docs/
+│   └── images/
+│       └── schematic_p1.png     # Rendered high-resolution schematic preview
 ├── .gitignore                   # Ignore Eagle backup and temporary files
 └── README.md                    # Project documentation
 ```
@@ -81,7 +93,7 @@ Contains standard RS-274X Gerber files and Excellon NC drill files ready for fab
 
 ---
 
-## 4. Hardware Specifications & Pinout
+## 5. Hardware Specifications & Pinout
 
 ### Technical Specifications
 | Parameter | Value | Notes |
@@ -109,7 +121,7 @@ Contains standard RS-274X Gerber files and Excellon NC drill files ready for fab
 
 ---
 
-## 5. Getting Started & Fabrication
+## 6. Getting Started & Fabrication
 
 ### PCB Ordering
 Upload `Freq-counter_2025-07-29.zip` to any standard PCB manufacturer:
@@ -128,7 +140,7 @@ Upload `Freq-counter_2025-07-29.zip` to any standard PCB manufacturer:
 
 ---
 
-## 6. Related Projects
+## 7. Related Projects
 
 This board is part of a measurement and embedded instrumentation hardware suite:
 - **[Oscilloscope Front-End](../Oscilloscope-front-end/):** Wideband analog front-end with programmable attenuator, AC/DC coupling, and high-speed ADC.
@@ -136,7 +148,7 @@ This board is part of a measurement and embedded instrumentation hardware suite:
 
 ---
 
-## 7. Project Status & Next Steps
+## 8. Project Status & Next Steps
 
 - [x] Schematic design and simulation of JFET buffer.
 - [x] Complete 2-layer PCB layout with ground planes.
