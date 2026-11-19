@@ -1,0 +1,16 @@
+# Eagle CAD backup files
+*.s#*
+*.b#*
+*.l#*
+*.epr
+*.b##
+*.s##
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*~
